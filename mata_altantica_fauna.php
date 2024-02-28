@@ -6,6 +6,10 @@
                 text-align: center;
                 margin-top:8px;
             }
+
+            .tituloS{
+                margin-top: 60px;
+            }
         </style>
      <?php include './cabecalho.php' ?>
     </head>
@@ -18,13 +22,16 @@
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Fauna</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 tituloS">Fauna</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
+
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/326700897&color=%235ba734&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;margin-bottom:30px;"><a href="https://soundcloud.com/sonsdanaturezaofficial" title="Sons da Natureza" target="_blank" style="color: #cccccc; text-decoration: none;">Sons da Natureza</a> · <a href="https://soundcloud.com/sonsdanaturezaofficial/sons-da-natureza" title="Sons da Natureza" target="_blank" style="color: #cccccc; text-decoration: none;">Sons da Natureza</a></div>
+
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
@@ -369,17 +376,6 @@
                 </div>
             </div>
         </section>
-        
-        
-        
-        
-        
-
-         <?php include 'equipe.php' ?>
-
-        <?php include 'referencias.php' ?>
-
-        <?php include 'extras.php' ?>
 
         <?php include 'rodape.php' ?>
 
